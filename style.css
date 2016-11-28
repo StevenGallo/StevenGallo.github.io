@@ -1,0 +1,120 @@
+header{
+	text-align: center;
+	background: url(http://i.imgur.com/0km2dpX.jpg);
+	background-size: cover;
+	color: white;
+  height: 160px;
+	font-family: 'Cormorant Garamond', serif;
+}
+body{
+	background-color: rgba(22,159,242,.6);
+	background-size: cover;
+	background-position: center;
+	}
+
+.navBar {
+    height: 100%;
+    width: 0;
+    position: fixed;
+    background-color: rgba(22,159,242,.6);
+    overflow-x: hidden;
+    transition: 0.5s;
+    padding-top: 20px;
+}
+
+.navBar a {
+    padding: 5px 5px 5px 10px;
+    text-decoration: none;
+    font-size: 25px;
+    color: black;
+    display: block;
+    transition: 0.4s
+}
+
+.navBar a:hover{
+    color: #f1f1f1;
+}
+.button a{
+  padding: 5px 5px 5px 10px;
+    text-decoration: none;
+    font-size: 25px;
+    color: black;
+    display: block;
+    transition: 0.4s
+}
+
+.button a:hover{
+    color: #f1f1f1;
+}
+nav{
+  padding:0;
+}
+.button{
+    top: 0;
+    right: 25px;
+    font-size: 36px;
+}
+
+a{
+	color: white;
+  display: inline-block;
+}
+img {
+	/*margin: 50px 0px 0px 0px;*/
+	/*border: 1px solid white;
+	border-radius: 10px;*/
+	}
+.pic{
+  float: left;
+}
+.project{
+  float: right;
+  margin: 5%;
+  height: 100px;
+  width: 150px;
+  border-radius: 5px;
+  border: 1px black solid;
+
+h1{}
+  margin:0;
+  /*padding-top: 30px;*/
+  font-size: 60px;
+	color: white;
+  font-family: 'Cormorant Garamond', serif;
+}
+ul{
+	padding: 5px;
+	background: blue;
+	/*background: linear-gradient(bottom, rgba(22,159,242,.9), rgba(22,159,242,.4));
+  background: -webkit-linear-gradient(bottom, rgba(22,159,242,.9), rgba(22,159,242,.4));
+  background: -moz-linear-gradient(bottom, rgba(22,159,242,.9), rgba(22,159,242,.4));*/
+}
+li{
+	font-size: 17px;
+	display: inline;
+	padding: 0px 10px 0px 10px;
+}
+h2{
+	font-family: 'Proza Libre', sans-serif;
+	font-size: 40px;
+}
+h3{
+	font-family: 'Proza Libre', sans-serif;
+	font-size: 30px;
+}
+p{
+	font-family: 'Proza Libre', sans-serif;
+	font-size: 18px;
+}
+footer{
+  background: blue, linear-gradient(bottom, rgba(22,159,242,.9), rgba(22,159,242,.4));
+  background: -webkit-linear-gradient(bottom, rgba(22,159,242,.9), rgba(22,159,242,.4));
+  background: -moz-linear-gradient(bottom, rgba(22,159,242,.9), rgba(22,159,242,.4));
+}
+.name{
+  display: inline-block;
+}
+.MainContent{
+	margin-left: 0px;
+  text-align: center;
+}

@@ -1,0 +1,51 @@
+<!DOCTYPE html>
+<html>
+
+<head>
+	<title>Steven Gallo's Personal Site</title>
+	<link href="style.css" rel="stylesheet">
+	<link href="https://fonts.googleapis.com/css?family=Cormorant+Garamond|Proza+Libre" rel="stylesheet">
+  <script src="https://ajax.aspnetcdn.com/ajax/jQuery/jquery-3.1.1.min.js"></script>
+
+</head>
+
+
+<body>
+<h1 class= "pic">
+  <img src="http://i.imgur.com/CkMOR1Zb.jpg?2">
+</h1>
+<header>
+      <h1>Steven Gallo</h1>
+  </header>
+<span class="button" onclick="openNav()">&#9776; menu</span>
+<nav id="myNavBar" class="navBar">
+  <a href="javascript:void(0)" class="button" onclick="closeNav()">&#9776;</a>
+  <a href="about.html">About</a>
+  <a href="contact.html">Contact</a>
+</nav>
+<div class="MainContent">
+ 		<h3>Welcome to my website</h3>
+ 		<p>find out more about me<br />
+ 		or contact me</p>
+ 	</div>
+<div class="project"></div>
+<div class="project"></div>
+<div class="project"></div>
+<footer>
+  <span class= "name"><a href="https://twitter.com/Captain_Gallo"><img src="http://icons.iconarchive.com/icons/matiasam/ios7-style/512/Twitter-icon.png" center style="width:50px;height:50px;border:0"></a>
+  <a href="https://www.linkedin.com/in/steven-gallo-935543114"><img src="https://cdn3.iconfinder.com/data/icons/free-social-icons/67/linkedin_circle_color-512.png" style="width:50px;height:50px;border:0"></a>
+  </span>
+</footer>
+<script>
+function openNav() {
+    document.getElementById("myNavBar").style.width = "250px";
+    document.getElementsByClassName("MainContent").style.marginLeft = "250px";
+}
+
+function closeNav() {
+    document.getElementById("myNavBar").style.width = "0px";
+    document.getElementsByClassName("MainContent").style.marginLeft = "0px";
+}
+</script>
+</body>
+</html>
